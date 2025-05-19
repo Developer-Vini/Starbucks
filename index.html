@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starbucks</title>
+  <link rel="stylesheet" href="src/styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="circulo"></div>
+
+
+  <header>
+    <img src="src/img/logo.png" class="img_logo" alt="Logo">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </header>
+  
+
+
+  <div class="conteudo">
+    <div class="caixa_texto">
+      <h1>it's not just coffee <br>it's <span>Starbucks</span></h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, officia repellendus <br> laudantium cumque
+        atque ad quaerat iusto veritatis temporibus molestias, necessitatibus <br> totam accusantium corporis sunt tempore sed, cum
+        culpa voluptates?</p>
+      <button>CLIQUE AQUI!</button>
+    </div>
+    <div class="caixa_imagem">
+      <img class="starbucks" src="src/img/img1.png" alt="imagem-copo-starbuck">
+    </div>
+
+  </div>
+
+  <div class="menu">
+    <img onclick="trocarCor('#017143'); trocaImagem('src/img/img1.png')" class="botao-menu" src="src/img/thumb1.png" alt="imagem-copinho-starbuck">
+    <img onclick="trocarCor('#eb7495'); trocaImagem('src/img/img2.png')" class="botao-menu" src="src/img/thumb2.png" alt="imagem-copinho-starbuck">
+    <img onclick="trocarCor('#d752b1'); trocaImagem('src/img/img3.png')" class="botao-menu" src="src/img/thumb3.png" alt="imagem-copinho-starbuck">
+  </div>
+</body>
+
+<script src="src/js/script.js"></script>
+
+</html>

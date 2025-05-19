@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.starbucks {
+    width: 320px;
+    transition: 0.7s;
+    position: relative;
+    top: 90px;
+    right: 20px;
+}
+
+.starbucks:hover {
+    transform: scale(1.2);
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+h1 {
+    color: #333;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background: #017143;
+    color: #ffffff;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #03693f;
+    transform: scale(1.2);
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.botao-menu {
+    width: 70px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao-menu:hover {
+    transform: translateY(-30px);
+
+}
+
+.img_logo {
+    position: relative;
+    right: 10px;
+    top: 20px;
+    display: flex;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.img_logo:hover {
+    transform: scale(1.2);
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: black;
+    transition: .5s ease-out;
+
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+.circulo {
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+}
+
